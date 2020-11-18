@@ -1,7 +1,7 @@
 # Masters Golf Viz
 library(tidyverse)
 
-df <- read.csv("https://raw.githubusercontent.com/joseph-shaw/Sports-Data-Visualization/main/Masters2020.csv", stringsAsFactors = F) %>% 
+df <- read.csv("https://raw.githubusercontent.com/joseph-shaw/Sports-Data-Visualization/main/Masters%202020/Masters2020.csv", stringsAsFactors = F) %>% 
   rename("name" = 1)
 
 par <- as.data.frame(t(df[1:2,])) %>% 
